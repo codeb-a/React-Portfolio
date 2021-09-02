@@ -1,34 +1,46 @@
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
-  <div class="container">
-    <a href="#" class="navbar-brand text-light">
-      BRANDON AKERS
-    </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navmenu"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navmenu">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a href="#aboutme" class="nav-link text-light">
-            ABOUT ME
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#mywork" class="nav-link text-light">
-            MY WORK
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#contactme" class="nav-link text-light">
-            CONTACT ME
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>;
+import React from "react";
+// Import React Router Link component for internal hyperlinks
+import { Link } from "react-router-dom";
+
+const Nav = () => {
+  return (
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <Link className="navbar-brand" to="/">
+        Brandon's Portfolio
+      </Link>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item">
+            <Link className="nav-link" to="/login">
+              Log In
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/signup">
+              Signup
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/profile">
+              Profile
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
+
+export default Nav;
