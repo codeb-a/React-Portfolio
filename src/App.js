@@ -1,27 +1,21 @@
 import React from "react";
 import "./App.css";
 import skyvid from "./components/video/skyvid.mp4";
-import Nav from "./components/navbar/navbar";
-import { Router } from "react-router-dom";
+import squadgoalspic3 from "./components/images/squadgoalspic3.png";
+import beatwave from "./components/images/beatwave.png";
+import Ecommercepic from "./components/images/E-Commercepic.jpeg";
+import employeetrackerpic from "./components/images/employeetrackerpic.png";
+import passwordgeneratorpic from "./components/images/passwordgeneratorpic.png";
+import techblogpic from "./components/images/techblogpic.png";
+import Weatherdashboardpic from "./components/images/Weatherdashboardpic.png";
+import notetakerpic3 from "./components/images/notetakerpic3.png";
+import selfpic from "./components/images/IMG_3010.JPG";
+
 function App() {
   return (
     <div className="App">
       {/* video background---------------------------------------------------------------- */}
-      <video
-        autoPlay
-        loop
-        muted
-        style={{
-          position: "absolute",
-          width: "100%",
-          left: "50%",
-          top: "50%",
-          height: "100%",
-          objectFit: "cover",
-          transform: "translate(-50%, -50%)",
-          zIndex: "-1",
-        }}
-      >
+      <video id="videobg" autoPlay loop muted>
         <source src={skyvid} type="video/mp4" />
       </video>
       {/* navbar---------------------------------------------------------------------------- */}
@@ -62,15 +56,22 @@ function App() {
       {/* Showcase section------------------------------------------------------------------------ */}
       <section id="#" class=" text-light p-4 text-center text-sm-start">
         <div class="container">
-          <div class="d-sm-flex align-items-cnter justify-content-between p-4 m-5">
+          <div class="d-sm-flex align-items-center justify-content-between p-4 m-5">
             <div class="p-5 m-5">
-              <h1>
+              <h1 class="centering">
                 FULL STACK <span class="text-info">WEB DEVELOPER</span>
               </h1>
-              <p class="lead my-4">
+              <p class=" centering lead my-4">
                 “The biggest obstacle I ever faced was my own limited perception
                 of myself.” – RuPaul
               </p>
+              <div>
+                <img
+                  class="self-pic img-fluid w-25 d-none d-sm-block"
+                  src={selfpic}
+                  alt={"selfpic"}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -94,7 +95,14 @@ function App() {
             <p class="text-light text-center glow-small h6">Squad Goals</p>
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                {/* <img src="./assets/images/squadgoalspic3.png" alt="" style="width:300px;height:300px;"> */}
+                <img
+                  src={squadgoalspic3}
+                  alt={"squadgoalspic3"}
+                  style={{
+                    width: "300px",
+                    height: "300px",
+                  }}
+                />
               </div>
               <div class="flip-card-back bg-dark text-light">
                 <h1>Squad Goals</h1>
@@ -117,7 +125,14 @@ function App() {
             <p class="text-light text-center glow-small h6">beatwave</p>
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                {/* <img src="./assets/images/beatwave.png" alt="" style="width:300px;height:300px;"> */}
+                <img
+                  src={beatwave}
+                  alt={"beatwave"}
+                  style={{
+                    width: "300px",
+                    height: "300px",
+                  }}
+                />
               </div>
               <div class="flip-card-back bg-dark text-light">
                 <h1>beatwave</h1>
@@ -140,7 +155,14 @@ function App() {
             <p class="text-light text-center glow-small h6">E-Commerce</p>
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                {/* <img src="./assets/images/E-Commercepic.jpeg" alt="" style="width:300px;height:300px;"> */}
+                <img
+                  src={Ecommercepic}
+                  alt={"Ecommercepic"}
+                  style={{
+                    width: "300px",
+                    height: "300px",
+                  }}
+                />
               </div>
               <div class="flip-card-back bg-dark text-light">
                 <h1>E-commerce</h1>
@@ -162,7 +184,14 @@ function App() {
             <p class="text-light text-center glow-small h6">Tech Blog</p>
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                {/* <img src="./assets/images/techblogpic.png" alt="" style="width:300px;height:300px;"> */}
+                <img
+                  src={techblogpic}
+                  alt={"techblogpic"}
+                  style={{
+                    width: "300px",
+                    height: "300px",
+                  }}
+                />
               </div>
               <div class="flip-card-back bg-dark text-light">
                 <h1>Tech Blog</h1>
@@ -185,7 +214,14 @@ function App() {
             <p class="text-light text-center glow-small h6">Employee Tracker</p>
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                {/* <img src="./assets/images/employeetrackerpic.png" alt="" style="width:300px;height:300px;"> */}
+                <img
+                  src={employeetrackerpic}
+                  alt={"employeetrackerpic"}
+                  style={{
+                    width: "300px",
+                    height: "300px",
+                  }}
+                />
               </div>
               <div class="flip-card-back bg-dark text-light">
                 <h1>Employee Tracker</h1>
@@ -207,7 +243,14 @@ function App() {
             <p class="text-light text-center glow-small h6">Note Taker</p>
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                {/* <img src="./assets/images/note-taker pic3.png" alt="" style="width:300px;height:300px;"> */}
+                <img
+                  src={notetakerpic3}
+                  alt={"notetakerpic3"}
+                  style={{
+                    width: "300px",
+                    height: "300px",
+                  }}
+                />
               </div>
               <div class="flip-card-back bg-dark text-light">
                 <h1>Note Taker</h1>
@@ -231,7 +274,14 @@ function App() {
             </p>
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                {/* <img src="./assets/images/Weatherdashboardpic.png" alt="" style="width:300px;height:300px;"> */}
+                <img
+                  src={Weatherdashboardpic}
+                  alt={"weatherdashboardpic"}
+                  style={{
+                    width: "300px",
+                    height: "300px",
+                  }}
+                />
               </div>
               <div class="flip-card-back bg-dark text-light">
                 <h1>Weather Dashboard</h1>
@@ -255,7 +305,14 @@ function App() {
             </p>
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                {/* <img src="./assets/images/passwordgeneratorpic.png" alt="" style="width:300px;height:300px;"> */}
+                <img
+                  src={passwordgeneratorpic}
+                  alt={"passwordgeneratorpic"}
+                  style={{
+                    width: "300px",
+                    height: "300px",
+                  }}
+                />
               </div>
               <div class="flip-card-back bg-dark text-light">
                 <h1>Password Generator</h1>
