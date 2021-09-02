@@ -21,9 +21,9 @@ function App() {
       {/* navbar---------------------------------------------------------------------------- */}
       <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
         <div class="container">
-          <a href="#" class="navbar-brand text-light">
+          <link to="#" class="navbar-brand text-light">
             BRANDON AKERS
-          </a>
+          </link>
           <button
             class="navbar-toggler"
             type="button"
@@ -35,14 +35,14 @@ function App() {
           <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a href="#aboutme" class="nav-link text-light">
+                <link to="#aboutme" class="nav-link text-light">
                   ABOUT ME
-                </a>
+                </link>
               </li>
               <li class="nav-item">
-                <a href="#mywork" class="nav-link text-light">
+                <link to="#mywork" class="nav-link text-light">
                   MY WORK
-                </a>
+                </link>
               </li>
               <li class="nav-item">
                 <a href="#contactme" class="nav-link text-light">
@@ -111,13 +111,13 @@ function App() {
                   simulator that allows users to select a hero and then enjoy a
                   turn based battle to test their might!
                 </p>
-                <a
-                  href="http://herobattle.herokuapp.com/"
+                <link
+                  to="http://herobattle.herokuapp.com/"
                   target="_blank"
                   class="btn btn-info"
                 >
                   View My Project
-                </a>
+                </link>
               </div>
             </div>
           </div>
@@ -141,13 +141,13 @@ function App() {
                   generate a Spotify playlist based on the current weather in
                   any city around the world.
                 </p>
-                <a
-                  href="https://group-proj-1.github.io/beatwave/"
+                <link
+                  to="https://group-proj-1.github.io/beatwave/"
                   target="_blank"
                   class="btn btn-info"
                 >
                   View My Project
-                </a>
+                </link>
               </div>
             </div>
           </div>
@@ -170,13 +170,13 @@ function App() {
                   This app allows the user to view, update, and remove
                   categories, products and tags from a database.
                 </p>
-                <a
-                  href="https://github.com/codeb-a/E-Commerce-Backend"
+                <link
+                  to="https://github.com/codeb-a/E-Commerce-Backend"
                   target="_blank"
                   class="btn btn-info"
                 >
                   View My Project
-                </a>
+                </link>
               </div>
             </div>
           </div>
@@ -200,13 +200,13 @@ function App() {
                   their blog posts and comment on other developers’ posts as
                   well.
                 </p>
-                <a
-                  href="https://brandon-tech-blog.herokuapp.com/"
+                <link
+                  to="https://brandon-tech-blog.herokuapp.com/"
                   target="_blank"
                   class="btn btn-info"
                 >
                   View My Project
-                </a>
+                </link>
               </div>
             </div>
           </div>
@@ -229,13 +229,13 @@ function App() {
                   This is a command-line application that lets a business owner
                   easily view and manage their employee database.
                 </p>
-                <a
-                  href="https://github.com/codeb-a/Employee-Tracker"
+                <link
+                  to="https://github.com/codeb-a/Employee-Tracker"
                   target="_blank"
                   class="btn btn-info"
                 >
                   View My Project
-                </a>
+                </link>
               </div>
             </div>
           </div>
@@ -258,13 +258,13 @@ function App() {
                   Note Taker is a simple application that lets the User easily
                   take notes for their daily use.
                 </p>
-                <a
-                  href="https://ba-note-taker.herokuapp.com/"
+                <link
+                  to="https://ba-note-taker.herokuapp.com/"
                   target="_blank"
                   class="btn btn-info"
                 >
                   View My Project
-                </a>
+                </link>
               </div>
             </div>
           </div>
@@ -289,13 +289,13 @@ function App() {
                   This app allows the user to search for the current weather of
                   any city in the world along with a 5-day forecast.
                 </p>
-                <a
-                  href="https://codeb-a.github.io/Weather-Dashboard/"
+                <link
+                  to="https://codeb-a.github.io/Weather-Dashboard/"
                   target="_blank"
                   class="btn btn-info"
                 >
                   View My Project
-                </a>
+                </link>
               </div>
             </div>
           </div>
@@ -320,13 +320,13 @@ function App() {
                   This application generates random passwords based on certain
                   parameters selected by the user.
                 </p>
-                <a
-                  href="https://codeb-a.github.io/Password-Generator/"
+                <link
+                  to="https://codeb-a.github.io/Password-Generator/"
                   target="_blank"
                   class="btn btn-info"
                 >
                   View My Project
-                </a>
+                </link>
               </div>
             </div>
           </div>
@@ -342,15 +342,15 @@ function App() {
                 <i class="bi bi-envelope p-2"></i>brandonakers729@gmail.com
               </p>
               <div class="text-center h1">
-                <a href="https://github.com/codeb-a" target="_blank">
+                <link to="https://github.com/codeb-a" target="_blank">
                   <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/b-akers/" target="_blank">
+                </link>
+                <link to="https://www.linkedin.com/in/b-akers/" target="_blank">
                   <i class="bi bi-linkedin"></i>
-                </a>
-                <a href="https://www.instagram.com/b_boss729/" target="_blank">
+                </link>
+                <link to="https://www.instagram.com/b_boss729/" target="_blank">
                   <i class="bi bi-instagram"></i>
-                </a>
+                </link>
               </div>
             </div>
           </div>
@@ -360,9 +360,9 @@ function App() {
       <footer class="p-5 text-light text-center position-relative">
         <div class="container">
           <p class="lead">Copyright &copy; 2021 Brandon Akers</p>
-          <a href="#" class="position-absolute bottom-0 end-0 p5">
+          <link to="#" class="position-absolute bottom-0 end-0 p5">
             <i class="bi bi-arrow-up-circle h1 p-5"></i>
-          </a>
+          </link>
         </div>
       </footer>
     </div>
