@@ -62,6 +62,22 @@ function App() {
           </div>
         </div>
       </nav>
+
+      <section id="#" class=" text-light p-4 text-center text-sm-start">
+        <div class="container">
+          <div class="d-sm-flex align-items-cnter justify-content-between p-4 m-5">
+            <div class="p-5 m-5">
+              <h1>
+                FULL STACK <span class="text-info">WEB DEVELOPER</span>
+              </h1>
+              <p class="lead my-4">
+                “The biggest obstacle I ever faced was my own limited perception
+                of myself.” – RuPaul
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
