@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import { Link } from "react-router-dom";
+
 import skyvid from "./components/video/skyvid.mp4";
 import squadgoalspic3 from "./components/images/squadgoalspic3.png";
 import beatwave from "./components/images/beatwave.png";
