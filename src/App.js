@@ -21,33 +21,33 @@ function App() {
         <source src={skyvid} type="video/mp4" />
       </video>
       {/* navbar---------------------------------------------------------------------------- */}
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
-        <div class="container">
-          <link to="#" class="navbar-brand text-light">
+      <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
+        <div className="container">
+          <link to="#" className="navbar-brand text-light">
             BRANDON AKERS
           </link>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navmenu"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <link to="#aboutme" class="nav-link text-light">
+          <div className="collapse navbar-collapse" id="navmenu">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <link to="#aboutme" className="nav-link text-light">
                   ABOUT ME
                 </link>
               </li>
-              <li class="nav-item">
-                <link to="#mywork" class="nav-link text-light">
+              <li className="nav-item">
+                <link to="#mywork" className="nav-link text-light">
                   MY WORK
                 </link>
               </li>
-              <li class="nav-item">
-                <a href="#contactme" class="nav-link text-light">
+              <li className="nav-item">
+                <a href="#contactme" className="nav-link text-light">
                   CONTACT ME
                 </a>
               </li>
@@ -56,20 +56,20 @@ function App() {
         </div>
       </nav>
       {/* Showcase section------------------------------------------------------------------------ */}
-      <section id="#" class=" text-light p-4 text-center text-sm-start">
-        <div class="container">
-          <div class="d-sm-flex align-items-center justify-content-between p-4 m-5">
-            <div class="p-5 m-5">
-              <h1 class="centering">
-                FULL STACK <span class="text-info">WEB DEVELOPER</span>
+      <section id="#" className=" text-light p-4 text-center text-sm-start">
+        <div className="container">
+          <div className="d-sm-flex align-items-center justify-content-between p-4 m-5">
+            <div className="p-5 m-5">
+              <h1 className="centering">
+                FULL STACK <span className="text-info">WEB DEVELOPER</span>
               </h1>
-              <p class=" centering lead my-4">
+              <p className=" centering lead my-4">
                 “The biggest obstacle I ever faced was my own limited perception
                 of myself.” – RuPaul
               </p>
               <div>
                 <img
-                  class="self-pic img-fluid w-25 d-none d-sm-block"
+                  className="self-pic img-fluid w-25 d-none d-sm-block"
                   src={selfpic}
                   alt={"selfpic"}
                 />
@@ -79,9 +79,9 @@ function App() {
         </div>
       </section>
       {/* About me section------------------------------------------------------------------------------- */}
-      <section id="aboutme" class="p-4">
-        <h1 class="glow text-center p-5">ABOUT ME</h1>
-        <p class="h4 text-light text-center">
+      <section id="aboutme" className="p-4">
+        <h1 className="glow text-center p-5">ABOUT ME</h1>
+        <p className="h4 text-light text-center">
           I'm a Full Stack Web Developer with an interest in Frontend. I
           recently graduated from the Northwestern University full stack web
           development program. Curious, determined, and creative always pushing
@@ -90,13 +90,13 @@ function App() {
         </p>
       </section>
       {/* Projects section------------------------------------------------------------------------------- */}
-      <section id="mywork" class="p-5">
-        <h1 class="glow text-center p-5">PROJECTS</h1>
-        <div class="row">
-          <div class="flip-card m-3 g-4">
-            <p class="text-light text-center glow-small h6">Squad Goals</p>
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+      <section id="mywork" className="p-5">
+        <h1 className="glow text-center p-5">PROJECTS</h1>
+        <div className="row">
+          <div className="flip-card m-3 g-4">
+            <p className="text-light text-center glow-small h6">Squad Goals</p>
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                 <img
                   src={squadgoalspic3}
                   alt={"squadgoalspic3"}
@@ -106,7 +106,7 @@ function App() {
                   }}
                 />
               </div>
-              <div class="flip-card-back bg-dark text-light">
+              <div className="flip-card-back bg-dark text-light">
                 <h1>Squad Goals</h1>
                 <p>
                   Squad Goals is a trading card style, turn-based, battle
@@ -116,17 +116,17 @@ function App() {
                 <link
                   to="http://herobattle.herokuapp.com/"
                   target="_blank"
-                  class="btn btn-info"
+                  className="btn btn-info"
                 >
                   View My Project
                 </link>
               </div>
             </div>
           </div>
-          <div class="flip-card m-3 g-4">
-            <p class="text-light text-center glow-small h6">beatwave</p>
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+          <div className="flip-card m-3 g-4">
+            <p className="text-light text-center glow-small h6">beatwave</p>
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                 <img
                   src={beatwave}
                   alt={"beatwave"}
@@ -136,7 +136,7 @@ function App() {
                   }}
                 />
               </div>
-              <div class="flip-card-back bg-dark text-light">
+              <div className="flip-card-back bg-dark text-light">
                 <h1>beatwave</h1>
                 <p>
                   beatwave is a unique application that allows a user to
@@ -146,17 +146,17 @@ function App() {
                 <link
                   to="https://group-proj-1.github.io/beatwave/"
                   target="_blank"
-                  class="btn btn-info"
+                  className="btn btn-info"
                 >
                   View My Project
                 </link>
               </div>
             </div>
           </div>
-          <div class="flip-card m-3 g-4">
-            <p class="text-light text-center glow-small h6">E-Commerce</p>
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+          <div className="flip-card m-3 g-4">
+            <p className="text-light text-center glow-small h6">E-Commerce</p>
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                 <img
                   src={Ecommercepic}
                   alt={"Ecommercepic"}
@@ -166,7 +166,7 @@ function App() {
                   }}
                 />
               </div>
-              <div class="flip-card-back bg-dark text-light">
+              <div className="flip-card-back bg-dark text-light">
                 <h1>E-commerce</h1>
                 <p>
                   This app allows the user to view, update, and remove
@@ -175,17 +175,17 @@ function App() {
                 <link
                   to="https://github.com/codeb-a/E-Commerce-Backend"
                   target="_blank"
-                  class="btn btn-info"
+                  className="btn btn-info"
                 >
                   View My Project
                 </link>
               </div>
             </div>
           </div>
-          <div class="flip-card m-3 g-4">
-            <p class="text-light text-center glow-small h6">Tech Blog</p>
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+          <div className="flip-card m-3 g-4">
+            <p className="text-light text-center glow-small h6">Tech Blog</p>
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                 <img
                   src={techblogpic}
                   alt={"techblogpic"}
@@ -195,7 +195,7 @@ function App() {
                   }}
                 />
               </div>
-              <div class="flip-card-back bg-dark text-light">
+              <div className="flip-card-back bg-dark text-light">
                 <h1>Tech Blog</h1>
                 <p>
                   This application is a tech blog where developers can publish
@@ -205,17 +205,19 @@ function App() {
                 <link
                   to="https://brandon-tech-blog.herokuapp.com/"
                   target="_blank"
-                  class="btn btn-info"
+                  className="btn btn-info"
                 >
                   View My Project
                 </link>
               </div>
             </div>
           </div>
-          <div class="flip-card m-3 g-4">
-            <p class="text-light text-center glow-small h6">Employee Tracker</p>
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+          <div className="flip-card m-3 g-4">
+            <p className="text-light text-center glow-small h6">
+              Employee Tracker
+            </p>
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                 <img
                   src={employeetrackerpic}
                   alt={"employeetrackerpic"}
@@ -225,7 +227,7 @@ function App() {
                   }}
                 />
               </div>
-              <div class="flip-card-back bg-dark text-light">
+              <div className="flip-card-back bg-dark text-light">
                 <h1>Employee Tracker</h1>
                 <p>
                   This is a command-line application that lets a business owner
@@ -234,17 +236,17 @@ function App() {
                 <link
                   to="https://github.com/codeb-a/Employee-Tracker"
                   target="_blank"
-                  class="btn btn-info"
+                  className="btn btn-info"
                 >
                   View My Project
                 </link>
               </div>
             </div>
           </div>
-          <div class="flip-card m-3 g-4">
-            <p class="text-light text-center glow-small h6">Note Taker</p>
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+          <div className="flip-card m-3 g-4">
+            <p className="text-light text-center glow-small h6">Note Taker</p>
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                 <img
                   src={notetakerpic3}
                   alt={"notetakerpic3"}
@@ -254,7 +256,7 @@ function App() {
                   }}
                 />
               </div>
-              <div class="flip-card-back bg-dark text-light">
+              <div className="flip-card-back bg-dark text-light">
                 <h1>Note Taker</h1>
                 <p>
                   Note Taker is a simple application that lets the User easily
@@ -263,19 +265,19 @@ function App() {
                 <link
                   to="https://ba-note-taker.herokuapp.com/"
                   target="_blank"
-                  class="btn btn-info"
+                  className="btn btn-info"
                 >
                   View My Project
                 </link>
               </div>
             </div>
           </div>
-          <div class="flip-card m-3 g-4">
-            <p class="text-light text-center glow-small h6">
+          <div className="flip-card m-3 g-4">
+            <p className="text-light text-center glow-small h6">
               Weather Dashboard
             </p>
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                 <img
                   src={Weatherdashboardpic}
                   alt={"weatherdashboardpic"}
@@ -285,7 +287,7 @@ function App() {
                   }}
                 />
               </div>
-              <div class="flip-card-back bg-dark text-light">
+              <div className="flip-card-back bg-dark text-light">
                 <h1>Weather Dashboard</h1>
                 <p>
                   This app allows the user to search for the current weather of
@@ -294,19 +296,19 @@ function App() {
                 <link
                   to="https://codeb-a.github.io/Weather-Dashboard/"
                   target="_blank"
-                  class="btn btn-info"
+                  className="btn btn-info"
                 >
                   View My Project
                 </link>
               </div>
             </div>
           </div>
-          <div class="flip-card m-3 g-4">
-            <p class="text-light text-center glow-small h6">
+          <div className="flip-card m-3 g-4">
+            <p className="text-light text-center glow-small h6">
               Password Generator
             </p>
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                 <img
                   src={passwordgeneratorpic}
                   alt={"passwordgeneratorpic"}
@@ -316,7 +318,7 @@ function App() {
                   }}
                 />
               </div>
-              <div class="flip-card-back bg-dark text-light">
+              <div className="flip-card-back bg-dark text-light">
                 <h1>Password Generator</h1>
                 <p>
                   This application generates random passwords based on certain
@@ -325,7 +327,7 @@ function App() {
                 <link
                   to="https://codeb-a.github.io/Password-Generator/"
                   target="_blank"
-                  class="btn btn-info"
+                  className="btn btn-info"
                 >
                   View My Project
                 </link>
@@ -335,23 +337,23 @@ function App() {
         </div>
       </section>
       {/* contact me section----------------------------------------------------------------------------- */}
-      <section id="contactme" class="text-light p-5">
-        <div class="container">
-          <div class="row g-4">
-            <div class="col-md">
-              <h1 class="text-center p-5 glow">CONTACT INFO</h1>
-              <p class="text-center lead">
-                <i class="bi bi-envelope p-2"></i>brandonakers729@gmail.com
+      <section id="contactme" className="text-light p-5">
+        <div className="container">
+          <div className="row g-4">
+            <div className="col-md">
+              <h1 className="text-center p-5 glow">CONTACT INFO</h1>
+              <p className="text-center lead">
+                <i className="bi bi-envelope p-2"></i>brandonakers729@gmail.com
               </p>
-              <div class="text-center h1">
+              <div className="text-center h1">
                 <link to="https://github.com/codeb-a" target="_blank">
-                  <i class="bi bi-github"></i>
+                  <i className="bi bi-github"></i>
                 </link>
                 <link to="https://www.linkedin.com/in/b-akers/" target="_blank">
-                  <i class="bi bi-linkedin"></i>
+                  <i className="bi bi-linkedin"></i>
                 </link>
                 <link to="https://www.instagram.com/b_boss729/" target="_blank">
-                  <i class="bi bi-instagram"></i>
+                  <i className="bi bi-instagram"></i>
                 </link>
               </div>
             </div>
@@ -359,11 +361,11 @@ function App() {
         </div>
       </section>
       {/* footer----------------------------------------------------------------------------- */}
-      <footer class="p-5 text-light text-center position-relative">
-        <div class="container">
-          <p class="lead">Copyright &copy; 2021 Brandon Akers</p>
-          <link to="#" class="position-absolute bottom-0 end-0 p5">
-            <i class="bi bi-arrow-up-circle h1 p-5"></i>
+      <footer className="p-5 text-light text-center position-relative">
+        <div className="container">
+          <p className="lead">Copyright &copy; 2021 Brandon Akers</p>
+          <link to="#" className="position-absolute bottom-0 end-0 p5">
+            <i className="bi bi-arrow-up-circle h1 p-5"></i>
           </link>
         </div>
       </footer>
