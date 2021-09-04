@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.39fdacf1.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.5efdf202.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.5efdf202.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.63efb54b.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.63efb54b.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.87cb6f40.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.87cb6f40.js.map",
     "static/css/2.818011ed.chunk.css": "/React-Portfolio/static/css/2.818011ed.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.818011ed.chunk.css.map": "/React-Portfolio/static/css/2.818011ed.chunk.css.map",
     "static/css/main.39fdacf1.chunk.css.map": "/React-Portfolio/static/css/main.39fdacf1.chunk.css.map",
     "static/js/2.1dc4ae8d.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.1dc4ae8d.chunk.js.LICENSE.txt",
+    "static/media/IMG_3010.92d4c2c5.JPG": "/React-Portfolio/static/media/IMG_3010.92d4c2c5.JPG",
     "static/media/beatwave.3c90b107.png": "/React-Portfolio/static/media/beatwave.3c90b107.png",
     "static/media/ecommercepic.da4bdc7f.png": "/React-Portfolio/static/media/ecommercepic.da4bdc7f.png",
     "static/media/employeetrackerpic.309bd323.png": "/React-Portfolio/static/media/employeetrackerpic.309bd323.png",
@@ -29,6 +30,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.1dc4ae8d.chunk.js",
     "static/css/main.39fdacf1.chunk.css",
-    "static/js/main.5efdf202.chunk.js"
+    "static/js/main.63efb54b.chunk.js"
   ]
 }
