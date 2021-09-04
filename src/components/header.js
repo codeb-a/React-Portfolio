@@ -1,4 +1,5 @@
 import React from "react";
+import selfpic from "./images/IMG_3010.JPG";
 
 const Header = () => {
   return (
@@ -16,9 +17,9 @@ const Header = () => {
           </div>
           <img
             className="self-pic img-fluid w-25 d-none d-sm-block"
-            src="./assets/images/IMG_3010.JPG"
+            src={selfpic}
             alt=""
-          ></img>
+          />
         </div>
       </div>
     </section>
