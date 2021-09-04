@@ -14,4 +14,5 @@ const Aboutme = () => {
     </section>
   );
 };
+
 export default Aboutme;

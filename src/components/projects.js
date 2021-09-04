@@ -1,14 +1,12 @@
 import React from "react";
-import squadgoalspic3 from "../images/squadgoalspic3.png";
-import beatwave from "../images/beatwave.png";
-import Ecommercepic from "../images/ecommercepic.png";
-import employeetrackerpic from "../images/employeetrackerpic.png";
-import passwordgeneratorpic from "../images/passwordgeneratorpic.png";
-import techblogpic from "../images/techblogpic.png";
-import Weatherdashboardpic from "../images/weatherdashboardpic.png";
-import notetakerpic3 from "../images/notetakerpic3.png";
-import { Link } from "react-router-dom";
-
+import beatwave from "./images/beatwave.png";
+import ecommercepic from "./images/ecommercepic.png";
+import squadgoalspic3 from "./images/squadgoalspic3.png";
+import employee from "./images/employeetrackerpic.png";
+import notetaker from "./images/notetakerpic3.png";
+import passwordpic from "./images/passwordgeneratorpic.png";
+import techblogpic from "./images/techblogpic.png";
+import weatherdashboardpic from "./images/weatherdashboardpic.png";
 const Projects = () => {
   return (
     <section id="mywork" className="p-5">
@@ -20,11 +18,8 @@ const Projects = () => {
             <div className="flip-card-front">
               <img
                 src={squadgoalspic3}
-                alt={"squadgoalspic3"}
-                style={{
-                  width: "300px",
-                  height: "300px",
-                }}
+                alt=""
+                style={{ width: "300px", height: "300px" }}
               />
             </div>
             <div className="flip-card-back bg-dark text-light">
@@ -34,11 +29,13 @@ const Projects = () => {
                 simulator that allows users to select a hero and then enjoy a
                 turn based battle to test their might!
               </p>
-              <button className="btn btn-info">
-                <Link to="http://herobattle.herokuapp.com/" target="_blank">
-                  View My Project
-                </Link>
-              </button>
+              <a
+                href="http://herobattle.herokuapp.com/"
+                target="_blank rel=noreferrer"
+                className="btn btn-info"
+              >
+                View My Project
+              </a>
             </div>
           </div>
         </div>
@@ -48,12 +45,9 @@ const Projects = () => {
             <div className="flip-card-front">
               <img
                 src={beatwave}
-                alt={"beatwave"}
-                style={{
-                  width: "300px",
-                  height: "300px",
-                }}
-              />
+                alt=""
+                style={{ width: "300px", height: "300px" }}
+              ></img>
             </div>
             <div className="flip-card-back bg-dark text-light">
               <h1>beatwave</h1>
@@ -62,14 +56,13 @@ const Projects = () => {
                 a Spotify playlist based on the current weather in any city
                 around the world.
               </p>
-              <button className="btn btn-info">
-                <Link
-                  to="https://group-proj-1.github.io/beatwave/"
-                  target="_blank"
-                >
-                  View My Project
-                </Link>
-              </button>
+              <a
+                href="https://group-proj-1.github.io/beatwave/"
+                target="_blank rel=noreferrer"
+                className="btn btn-info"
+              >
+                View My Project
+              </a>
             </div>
           </div>
         </div>
@@ -78,12 +71,9 @@ const Projects = () => {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src={Ecommercepic}
-                alt={"Ecommercepic"}
-                style={{
-                  width: "300px",
-                  height: "300px",
-                }}
+                src={ecommercepic}
+                alt=""
+                style={{ width: "300px", height: "300px" }}
               />
             </div>
             <div className="flip-card-back bg-dark text-light">
@@ -92,14 +82,13 @@ const Projects = () => {
                 This app allows the user to view, update, and remove categories,
                 products and tags from a database.
               </p>
-              <button className="btn btn-info">
-                <Link
-                  to="https://github.com/codeb-a/E-Commerce-Backend"
-                  target="_blank"
-                >
-                  View My Project
-                </Link>
-              </button>
+              <a
+                href="https://github.com/codeb-a/E-Commerce-Backend"
+                target="_blank rel=noreferrer"
+                className="btn btn-info"
+              >
+                View My Project
+              </a>
             </div>
           </div>
         </div>
@@ -109,11 +98,8 @@ const Projects = () => {
             <div className="flip-card-front">
               <img
                 src={techblogpic}
-                alt={"techblogpic"}
-                style={{
-                  width: "300px",
-                  height: "300px",
-                }}
+                alt=""
+                style={{ width: "300px", height: "300px" }}
               />
             </div>
             <div className="flip-card-back bg-dark text-light">
@@ -122,14 +108,13 @@ const Projects = () => {
                 This application is a tech blog where developers can publish
                 their blog posts and comment on other developers’ posts as well.
               </p>
-              <button className="btn btn-info">
-                <Link
-                  to="https://brandon-tech-blog.herokuapp.com/"
-                  target="_blank"
-                >
-                  View My Project
-                </Link>
-              </button>
+              <a
+                href="https://brandon-tech-blog.herokuapp.com/"
+                target="_blank rel=noreferrer"
+                className="btn btn-info"
+              >
+                View My Project
+              </a>
             </div>
           </div>
         </div>
@@ -140,12 +125,9 @@ const Projects = () => {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src={employeetrackerpic}
-                alt={"employeetrackerpic"}
-                style={{
-                  width: "300px",
-                  height: "300px",
-                }}
+                src={employee}
+                alt=""
+                style={{ width: "300px", height: "300px" }}
               />
             </div>
             <div className="flip-card-back bg-dark text-light">
@@ -154,14 +136,13 @@ const Projects = () => {
                 This is a command-line application that lets a business owner
                 easily view and manage their employee database.
               </p>
-              <button className="btn btn-info">
-                <Link
-                  to="https://github.com/codeb-a/Employee-Tracker"
-                  target="_blank"
-                >
-                  View My Project
-                </Link>
-              </button>
+              <a
+                href="https://github.com/codeb-a/Employee-Tracker"
+                target="_blank rel=no referrer"
+                className="btn btn-info"
+              >
+                View My Project
+              </a>
             </div>
           </div>
         </div>
@@ -170,12 +151,9 @@ const Projects = () => {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src={notetakerpic3}
-                alt={"notetakerpic3"}
-                style={{
-                  width: "300px",
-                  height: "300px",
-                }}
+                src={notetaker}
+                alt=""
+                style={{ width: "300px", height: "300px" }}
               />
             </div>
             <div className="flip-card-back bg-dark text-light">
@@ -184,11 +162,13 @@ const Projects = () => {
                 Note Taker is a simple application that lets the User easily
                 take notes for their daily use.
               </p>
-              <button className="btn btn-info">
-                <Link to="https://ba-note-taker.herokuapp.com/" target="_blank">
-                  View My Project
-                </Link>
-              </button>
+              <a
+                href="https://ba-note-taker.herokuapp.com/"
+                target="_blank no referrer"
+                className="btn btn-info"
+              >
+                View My Project
+              </a>
             </div>
           </div>
         </div>
@@ -199,12 +179,9 @@ const Projects = () => {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src={Weatherdashboardpic}
-                alt={"weatherdashboardpic"}
-                style={{
-                  width: "300px",
-                  height: "300px",
-                }}
+                src={weatherdashboardpic}
+                alt=""
+                style={{ width: "300px", height: "300px" }}
               />
             </div>
             <div className="flip-card-back bg-dark text-light">
@@ -213,14 +190,13 @@ const Projects = () => {
                 This app allows the user to search for the current weather of
                 any city in the world along with a 5-day forecast.
               </p>
-              <button className="btn btn-info">
-                <Link
-                  to="https://codeb-a.github.io/Weather-Dashboard/"
-                  target="_blank"
-                >
-                  View My Project
-                </Link>
-              </button>
+              <a
+                href="https://codeb-a.github.io/Weather-Dashboard/"
+                target="_blank no referrer"
+                className="btn btn-info"
+              >
+                View My Project
+              </a>
             </div>
           </div>
         </div>
@@ -231,12 +207,9 @@ const Projects = () => {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img
-                src={passwordgeneratorpic}
-                alt={"passwordgeneratorpic"}
-                style={{
-                  width: "300px",
-                  height: "300px",
-                }}
+                src={passwordpic}
+                alt=""
+                style={{ width: "300px", height: "300px" }}
               />
             </div>
             <div className="flip-card-back bg-dark text-light">
@@ -245,14 +218,13 @@ const Projects = () => {
                 This application generates random passwords based on certain
                 parameters selected by the user.
               </p>
-              <button className="btn btn-info">
-                <Link
-                  to="https://codeb-a.github.io/Password-Generator/"
-                  target="_blank"
-                >
-                  View My Project
-                </Link>
-              </button>
+              <a
+                href="https://codeb-a.github.io/Password-Generator/"
+                target="_blank no referrer"
+                className="btn btn-info"
+              >
+                View My Project
+              </a>
             </div>
           </div>
         </div>

@@ -1,12 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
-        <div className="container navbar-brand text-light">
-          <Link to="/">BRANDON AKERS</Link>
+        <div className="container">
+          <a href="/" className="navbar-brand text-light">
+            BRANDON AKERS
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -17,14 +18,20 @@ const Nav = () => {
           </button>
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item nav-link text-light ">
-                <Link to="/aboutme">ABOUT ME</Link>
+              <li className="nav-item">
+                <a href="#aboutme" className="nav-link text-light">
+                  ABOUT ME
+                </a>
               </li>
-              <li className="nav-item nav-link text-light">
-                <Link a="/mywork">MY WORK</Link>
+              <li className="nav-item">
+                <a href="#mywork" className="nav-link text-light">
+                  MY WORK
+                </a>
               </li>
-              <li className="nav-item nav-link text-light">
-                <Link to="/contactme">CONTACT ME</Link>
+              <li className="nav-item">
+                <a href="#contactme" className="nav-link text-light">
+                  CONTACT ME
+                </a>
               </li>
             </ul>
           </div>
